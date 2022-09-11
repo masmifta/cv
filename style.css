@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.leaft-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.photo-contact {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.photo {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.button-contact {
+    width: 50%;
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.button-contact:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.right-container {
+    position: absolute;
+    left: 400px
+}
+
+.top-bar {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.title {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.list-menu {
+    float: right;
+    padding-right: 50px;
+}
+
+.menu {
+    font-size: 1.5rem ;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#profile {
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+#About {
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#Experience {
+    margin-top: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#Contact {
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+#footer {
+    margin-top: 200px;
+    padding-left: 100px;
+    text-align: center;
+}
+p {
+    line-height: 200%;
+}
